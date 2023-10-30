@@ -115,6 +115,10 @@ var itemList = document.querySelector('#items');
 // console.log(itemList.lastChild);
 
 //lastElementChild
-console.log(itemList.lastElementChild);
-itemList.lastElementChild.textContent = 'Hello 4';
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent = 'Hello 4';
+
+
+// nextSibling
+console.log(itemList.nextSibling);
 
