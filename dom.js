@@ -154,3 +154,26 @@ console.log(newDiv);
 newDiv.style.fontSize = '30px';
 container.insertBefore(newDiv, h1);
 
+
+
+// createNewElement
+// create a Newdiv
+var NnewDiv = document.createElement('div');
+// Add class 
+NnewDiv.className= 'Hello';
+// Add id 
+NnewDiv.id = 'Hello12';
+
+// Add attr 
+NnewDiv.setAttribute('title', 'Hello Div12');
+// Create text node 
+var NnewDivText = document.createTextNode('Hi World');
+
+// // Add text to div
+NnewDiv.appendChild(NnewDivText);
+
+var Ncontainer = document.querySelector('body .title'); 
+var h2 = document.querySelector('header h2');
+console.log(NnewDiv);
+// NnewDiv.style.fontSize = '30px';
+Ncontainer.insertBefore(NnewDiv, h2);
