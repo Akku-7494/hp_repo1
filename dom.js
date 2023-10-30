@@ -122,3 +122,6 @@ var itemList = document.querySelector('#items');
 // nextSibling
 console.log(itemList.nextSibling);
 
+// nextElementSibling
+console.log(itemList.nextElementSibling);
+
