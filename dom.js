@@ -125,3 +125,6 @@ console.log(itemList.nextSibling);
 // nextElementSibling
 console.log(itemList.nextElementSibling);
 
+// previousSibling
+console.log(itemList.previousSibling);
+
